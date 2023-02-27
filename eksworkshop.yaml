@@ -20,10 +20,10 @@ managedNodeGroups:
   minSize: 0
   labels:
     alpha.eksctl.io/cluster-name: eksworkshop-eksctl
-    alpha.eksctl.io/nodegroup-name: mng-od-m5large
+    alpha.eksctl.io/nodegroup-name: mng-od-t3small
     intent: control-apps
   tags:
-    alpha.eksctl.io/nodegroup-name: mng-od-m5large
+    alpha.eksctl.io/nodegroup-name: mng-od-t3small
     alpha.eksctl.io/nodegroup-type: managed
     k8s.io/cluster-autoscaler/node-template/label/intent: control-apps
   iam:
